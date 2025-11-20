@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+header{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff8e6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0;
+
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    background: #242424;
+
+}
+
+.container {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+.form {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.input-field {
+
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    position: relative;
+    display: block;
+    width: 100%;
+    border: 1px #fff8e6;;
+    border-radius: 20px;
+    padding: 20px 28px;
+    margin-bottom: 5px;
+    font-size: 20px;
+
+}
+
+.send-btn {
+    border-radius: 20px;
+    border: none;
+    padding: 20px 28px;
+    background-color: #333333FF;
+    color: #fff8e6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.send-btn:hover {
+    background-color:#444444FF;
+}
+
+/*.send-btn:active {*/
+/*    background-color: #fff8e6;*/
+/*}*/
+
+.error .input-field {
+    border-color: #ff5959;
+}
+
+.error-label {
+    display: block;
+    color:  #ff5959;
+    margin-bottom: 10px;
+}
+
+body.dark .send-btn{
+    color: #fff8e6;
+    background: #333333FF;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+body.dark .send-btn:hover{
+    background: #444444FF;
+}
+
+body.light .send-btn{
+    color: #6c9faa;
+    background: #fbecc4;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+body.light .send-btn:hover{
+    background: #f1e2be;
+}

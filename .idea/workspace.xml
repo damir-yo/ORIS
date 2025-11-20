@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d2a7387-4ca6-4c94-a228-ffa0d3a01915" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ORIS.iml" afterDir="false" />
-    </list>
+    <list default="true" id="5d2a7387-4ca6-4c94-a228-ffa0d3a01915" name="Changes" comment="dz0609" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,17 +13,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;damir-yo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/damir-yo/ORIS.git&quot;,
+    &quot;accountId&quot;: &quot;0ebb492d-c307-46db-9a94-67a1a1312128&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="32vel9Mda4xwJaIFx2804svrYzG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,6 +49,7 @@
     "JavaScript Debug.ORIS0609.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "master",
@@ -48,9 +61,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "repository"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -59,12 +77,15 @@
       <recent name="C:\Users\damir\WebstormProjects\untitled1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\damir\WebstormProjects\untitled1\.idea" />
-      <recent name="C:\Users\damir\WebstormProjects\untitled1\.idea\screenshots" />
+      <recent name="C:\Users\damir\WebstormProjects\untitled1" />
+      <recent name="C:\Users\damir\WebstormProjects\untitled1\.idea\ORIS0609" />
+      <recent name="C:\Users\damir\WebstormProjects\untitled1\.idea\ORIS0609\img" />
+      <recent name="C:\Users\damir\WebstormProjects\untitled1\.idea\ORIS0609\css" />
+      <recent name="C:\Users\damir\WebstormProjects\untitled1\.idea\ORIS0609\html" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ORIS0609.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/ORIS/.idea/ORIS0609.html" useBuiltInWebServerPort="true">
+    <configuration name="ORIS0609.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ORIS/.idea/ORIS0609/ORIS0609.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -87,11 +108,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758305621706</updated>
-      <workItem from="1758305623246" duration="6388000" />
+      <workItem from="1758305623246" duration="6875000" />
+      <workItem from="1758549545750" duration="873000" />
+      <workItem from="1758639978300" duration="50000" />
+      <workItem from="1759574141712" duration="666000" />
+      <workItem from="1759576645225" duration="1459000" />
+      <workItem from="1759583079487" duration="22153000" />
+      <workItem from="1759669643243" duration="8856000" />
+      <workItem from="1760969977089" duration="23569000" />
+      <workItem from="1761041381663" duration="9768000" />
+      <workItem from="1761058430676" duration="1346000" />
+      <workItem from="1761130488852" duration="1256000" />
+      <workItem from="1761240419775" duration="11000" />
+      <workItem from="1761937324728" duration="110000" />
+      <workItem from="1763417357657" duration="7890000" />
+      <workItem from="1763555683389" duration="5000" />
+      <workItem from="1763586106699" duration="867000" />
+      <workItem from="1763592755724" duration="6135000" />
+      <workItem from="1763604978781" duration="3531000" />
+      <workItem from="1763643014577" duration="10320000" />
     </task>
+    <task id="LOCAL-00001" summary="dz0609">
+      <option name="closed" value="true" />
+      <created>1758312091985</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758312091985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dz0609">
+      <option name="closed" value="true" />
+      <created>1758312101357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758312101357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dz0609" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz0609" />
   </component>
 </project>

@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+.newVinyl{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    background: #333333FF;
+    margin: 0;
+    padding: 10px 20px;
+    color: #fff8e6;
+    border-radius: 8px;
+}
+.h5RIGHTS{
+    font-size: 25px;
+    text-align: center;
+    color: #fff8e6;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+header{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff8e6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+body{
+    margin: 0;
+    color: #fff8e6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    background: #242424;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 65%;
+    padding: 80px 30px;
+    color: aliceblue;
+}
+.slide{
+    margin-bottom: -5px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+container-slider-track{
+/*    */
+    gap: 15px;
+
+}
+.scroll-slider{
+    position: relative;
+}
+.slider-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin-top: -25px;
+    background-color: #fff8e6;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    z-index: 2;
+}
+
+.slider-button._prev{
+    left: -25px;
+}
+.slider-button._next{
+    right: -25px;
+}
+.album{
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.album .text{
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s ease, background 0.25s ease;
+    color: #fff8e6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 130%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+}
+.album:hover img{
+    /*filter: blur(10px);*/
+    filter: brightness(55%);
+}
+.album:hover .text{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.menu{
+    color: #fff8e6;
+    text-transform: uppercase;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.menu li{
+    position: relative;
+    min-width: 130px;
+}
+
+.menu a{
+    color: #fff8e6;
+    text-decoration: none;
+    background: #333333FF;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.2s ease;
+}
+.menu .center{
+    color: #fff8e6;
+    font-size: 30px;
+}
+.menu:hover a{
+    opacity: 1;
+    transform: scale(1);
+}
+.menu a:hover{
+    background: #444444FF;
+}
+
+body.light{
+    background: #fff8e6;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.dark{
+    background: #242424;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.dark header{
+    color: #fff8e6;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.light header{
+    color: #6c9faa;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.dark .menu a{
+    color: #fff8e6;
+    transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.5s ease, box-shadow 0.2s ease;
+}
+body.dark .menu li{
+    color: #fff8e6;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.light .menu a{
+    color: #6c9faa;
+    transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.5s ease, box-shadow 0.2s ease;
+}
+
+body.light .menu li{
+    color: #6c9faa;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.light .menu a{
+    background: #fbecc4;
+}
+body.light .menu a:hover{
+    background: #f1e2be;
+}
+body.dark .slider-button{
+    background-color: #fff8e6;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.light .slider-button{
+    background-color: #6c9faa;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.dark .newVinyl{
+    color: #fff8e6;
+    background: #333333FF;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.light .newVinyl{
+    color: #6c9faa;
+    background: #fbecc4;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.light .sale-timer{
+    color: #6c9faa;
+    background: #fbecc4;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+body.light .sale-timer::before{
+    color: #6c9faa;
+    background: #fbecc4;
+}
+body.dark .sale-timer{
+    color: #fff8e6;
+    background: #333333FF;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+body.dark .sale-timer::before{
+    color: #fff8e6;
+    background: #333333FF;
+}
+
+.headline-with-timer {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sale-timer {
+    padding: 10px 20px;
+    background: #333333;
+    color: #fff8e6;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: default;
+    position: relative;
+}
+
+.sale-timer::before {
+    content: "до распродажи";
+    position: absolute;
+    top: 0px;
+    left: 285px;
+    transform: translateX(-50%);
+    background: #333333;
+    color: #fff8e6;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.2s ease;
+    pointer-events: none;
+}
+
+.sale-timer:hover::before {
+    opacity: 1;
+}

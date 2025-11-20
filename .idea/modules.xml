@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/homework-ORIS.iml" filepath="$PROJECT_DIR$/homework-ORIS.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/.idea/ORIS.iml" filepath="$PROJECT_DIR$/.idea/ORIS.iml" />
->>>>>>> b746f3b84061c330422dc7364a7a549f9d31e854
     </modules>
   </component>
 </project>

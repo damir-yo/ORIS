@@ -1,0 +1,17 @@
+container-slider-track{
+    position: relative;
+    /*по горизонтали располагаем карусель кнопок*/
+    display: flex;
+    /*убираем вертикальную прокрутку на всякий случай и добавляем прокрутку по горизонтали*/
+    overflow-y: hidden;
+    overflow-x: auto ;
+    /*делаем плавную прокрутку*/
+    scroll-behavior: smooth;
+    /*скрываем полосу прокрутки, которая стоит по дефолту*/
+    scrollbar-width: none;
+
+    scroll-snap-type: none;
+}
+container-slider-track > *{
+    scroll-snap-align: center;
+}

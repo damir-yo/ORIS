@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href=".\ORIS0609.css">
+    <link rel="stylesheet" href="slider.css">
+    <script type = "module" src = "index.js"></script>
+    <script type = "module" src = "changerTheme.js"></script>
+    <title>Vinyl Shop</title>
+</head>
+<body>
+    <header>
+        Магазин виниловых пластинок
+    </header>
+    <div class="menu">
+        <ul>
+            <li><a href="ValidationForm.html">Отзыв</a></li>
+            <li class="themeButton" id = "themebuttonID"><a href="#">Тема</a></li>
+            <li class = "center">Меню</li>
+            <li><a href="#">Профиль</a></li>
+            <li><a href="#">корзина</a></li>
+        </ul>
+    </div>
+    <div class = "headline-with-timer">
+        <h2 class = "newVinyl">
+            Новые пополнения:
+        </h2>
+        <div class  = "sale-timer" title="before sale">
+            <span id = "sale-timer-text"></span>
+        </div>
+    </div>
+
+    <div class = "container">
+        <scroll-slider class="scroll-slider">
+            <scroll-slider-prev-button
+                    tabIndex = "0"
+                    hidden
+                    class="slider-button _prev">
+            </scroll-slider-prev-button>
+            <scroll-slider-next-button
+                    tabIndex = "0"
+                    class="slider-button _next">
+            </scroll-slider-next-button>
+            <container-slider-track class="container-slider-track">
+                <div class ="album">
+                    <a href="">
+                        <img src="img/Because-the-Internet.png" alt = "childish" class="slide">
+                        <div class ="text">
+                            Because the Internet<br>
+                            <h6 class ="h6author">
+                                Childish Gambino
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class ="album">
+                    <a href="">
+                        <img src="img/denzel.jpeg" alt="denzel" class="slide">
+                        <div class ="text">
+                            King Of The Mischievous South Vol. 2<br>
+                            <h6 class ="h6author">
+                                Denzel Curry
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class ="album">
+                    <a href="">
+                        <img src="img/peggy.jpg" alt="peggy" class="slide">
+                        <div class ="text">
+                            I LAYDOWN MY LIFE FOR YOU<br>
+                            <h6 class ="h6author">
+                                JPEGMAFIA
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class ="album">
+                    <a href="">
+                        <img src="img/Larger-Than-Life.jpg" alt="brent" class="slide">
+                        <div class ="text">
+                            Larger Than Life<br>
+                            <h6 class ="h6author">
+                                Brent Faiyaz
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class ="album">
+                    <a href="">
+                        <img src="img/albumTesting.jpg" alt="asap" class="slide">
+                        <div class ="text">
+                            TESTING<br>
+                            <h6 class ="h6author">
+                                A$AP Rocky
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+                <div class ="album">
+                    <a href="">
+                        <img src="img/wolf.png" alt="tyler" class="slide">
+                        <div class ="text">
+                            WOLF<br>
+                            <h6 class ="h6author">
+                                Tyler, The Creator
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+            </container-slider-track>
+        </scroll-slider>
+    </div>
+</body>
+</html>
